@@ -57,7 +57,7 @@ serverIp=$domain
 uuid=$id
 shortId=$(openssl rand -hex 8)
 sni=$sni
-url="vless://$uuid@$serverIp:443?security=reality&encryption=none&pbk=$pub&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=$sni&sid=$shortId#Thời-Tiết-Openwrt"
+url="vless://$uuid@$serverIp:443?path=%2F&security=reality&encryption=none&pbk=$pub&fp=chrome&type=http&sni=$sni&sid=$shortId#$uuid"
 
 newJson=$(echo "$json" | jq \
     --arg sni "$sni" \
