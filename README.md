@@ -11,7 +11,7 @@ curl -sLo warp-reg https://github.com/badafans/warp-reg/releases/download/v1.0/m
 ```
 ## Installation VLESS-XTLS-uTLS-REALITY
 ```
- bash -c "$(curl -L https://raw.githubusercontent.com/Thaomtam/Oneclick-Xray-Reality/main/Reality.sh)"
+  bash -c "$(curl -L https://raw.githubusercontent.com/chungcon009/Test/main/Reality.sh)"
 ```
 ## Installation Socks Proxy
 ```
